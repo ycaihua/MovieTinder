@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A415F8D91B0818430097B72E /* TTMovieListDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = A415F8D81B0818430097B72E /* TTMovieListDataController.m */; };
+		A415F8DF1B082FDD0097B72E /* TTEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A415F8DE1B082FDD0097B72E /* TTEntry.m */; };
+		A415F8E21B08336D0097B72E /* AppDelegate+TTNetworkHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A415F8E11B08336D0097B72E /* AppDelegate+TTNetworkHelpers.m */; };
+		A415F8E51B083BE50097B72E /* TTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A415F8E41B083BE50097B72E /* TTImageView.m */; };
+		A415F8EB1B0AFFEF0097B72E /* TTSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A415F8EA1B0AFFEF0097B72E /* TTSwipeViewController.m */; };
+		A415F8EE1B0B03250097B72E /* TTMovieCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A415F8ED1B0B03250097B72E /* TTMovieCard.m */; };
+		A49829B51B07F211008F99B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A49829B41B07F211008F99B8 /* main.m */; };
+		A49829B81B07F211008F99B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A49829B71B07F211008F99B8 /* AppDelegate.m */; };
+		A49829C01B07F211008F99B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49829BF1B07F211008F99B8 /* Images.xcassets */; };
+		A49829C31B07F211008F99B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49829C11B07F211008F99B8 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A415F8D71B0818430097B72E /* TTMovieListDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMovieListDataController.h; sourceTree = "<group>"; };
+		A415F8D81B0818430097B72E /* TTMovieListDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMovieListDataController.m; sourceTree = "<group>"; };
+		A415F8DD1B082FDD0097B72E /* TTEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEntry.h; sourceTree = "<group>"; };
+		A415F8DE1B082FDD0097B72E /* TTEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTEntry.m; sourceTree = "<group>"; };
+		A415F8E01B08336D0097B72E /* AppDelegate+TTNetworkHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+TTNetworkHelpers.h"; sourceTree = "<group>"; };
+		A415F8E11B08336D0097B72E /* AppDelegate+TTNetworkHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+TTNetworkHelpers.m"; sourceTree = "<group>"; };
+		A415F8E31B083BE50097B72E /* TTImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTImageView.h; sourceTree = "<group>"; };
+		A415F8E41B083BE50097B72E /* TTImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTImageView.m; sourceTree = "<group>"; };
+		A415F8E91B0AFFEF0097B72E /* TTSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSwipeViewController.h; sourceTree = "<group>"; };
+		A415F8EA1B0AFFEF0097B72E /* TTSwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSwipeViewController.m; sourceTree = "<group>"; };
+		A415F8EC1B0B03250097B72E /* TTMovieCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMovieCard.h; sourceTree = "<group>"; };
+		A415F8ED1B0B03250097B72E /* TTMovieCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMovieCard.m; sourceTree = "<group>"; };
+		A49829AF1B07F211008F99B8 /* TravelTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49829B31B07F211008F99B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49829B41B07F211008F99B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A49829B61B07F211008F99B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A49829B71B07F211008F99B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A49829BF1B07F211008F99B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A49829C21B07F211008F99B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A49829AC1B07F211008F99B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A415F8D61B0817D40097B72E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A49829BF1B07F211008F99B8 /* Images.xcassets */,
+				A49829C11B07F211008F99B8 /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A49829A61B07F211008F99B8 = {
+			isa = PBXGroup;
+			children = (
+				A49829B11B07F211008F99B8 /* TravelTunes */,
+				A49829B01B07F211008F99B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A49829B01B07F211008F99B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A49829AF1B07F211008F99B8 /* TravelTunes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A49829B11B07F211008F99B8 /* TravelTunes */ = {
+			isa = PBXGroup;
+			children = (
+				A49829B61B07F211008F99B8 /* AppDelegate.h */,
+				A49829B71B07F211008F99B8 /* AppDelegate.m */,
+				A415F8E01B08336D0097B72E /* AppDelegate+TTNetworkHelpers.h */,
+				A415F8E11B08336D0097B72E /* AppDelegate+TTNetworkHelpers.m */,
+				A415F8DD1B082FDD0097B72E /* TTEntry.h */,
+				A415F8DE1B082FDD0097B72E /* TTEntry.m */,
+				A415F8E31B083BE50097B72E /* TTImageView.h */,
+				A415F8E41B083BE50097B72E /* TTImageView.m */,
+				A415F8EC1B0B03250097B72E /* TTMovieCard.h */,
+				A415F8ED1B0B03250097B72E /* TTMovieCard.m */,
+				A415F8E91B0AFFEF0097B72E /* TTSwipeViewController.h */,
+				A415F8EA1B0AFFEF0097B72E /* TTSwipeViewController.m */,
+				A415F8D71B0818430097B72E /* TTMovieListDataController.h */,
+				A415F8D81B0818430097B72E /* TTMovieListDataController.m */,
+				A415F8D61B0817D40097B72E /* Resources */,
+				A49829B21B07F211008F99B8 /* Supporting Files */,
+			);
+			path = TravelTunes;
+			sourceTree = "<group>";
+		};
+		A49829B21B07F211008F99B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A49829B31B07F211008F99B8 /* Info.plist */,
+				A49829B41B07F211008F99B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A49829AE1B07F211008F99B8 /* MovieTinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A49829D21B07F211008F99B8 /* Build configuration list for PBXNativeTarget "MovieTinder" */;
+			buildPhases = (
+				A49829AB1B07F211008F99B8 /* Sources */,
+				A49829AC1B07F211008F99B8 /* Frameworks */,
+				A49829AD1B07F211008F99B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieTinder;
+			productName = TravelTunes;
+			productReference = A49829AF1B07F211008F99B8 /* TravelTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A49829A71B07F211008F99B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TT;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Matt Jarjoura";
+				TargetAttributes = {
+					A49829AE1B07F211008F99B8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A49829AA1B07F211008F99B8 /* Build configuration list for PBXProject "TravelTunes" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A49829A61B07F211008F99B8;
+			productRefGroup = A49829B01B07F211008F99B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A49829AE1B07F211008F99B8 /* MovieTinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A49829AD1B07F211008F99B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49829C31B07F211008F99B8 /* LaunchScreen.xib in Resources */,
+				A49829C01B07F211008F99B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A49829AB1B07F211008F99B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A415F8EE1B0B03250097B72E /* TTMovieCard.m in Sources */,
+				A415F8E51B083BE50097B72E /* TTImageView.m in Sources */,
+				A49829B81B07F211008F99B8 /* AppDelegate.m in Sources */,
+				A415F8DF1B082FDD0097B72E /* TTEntry.m in Sources */,
+				A49829B51B07F211008F99B8 /* main.m in Sources */,
+				A415F8EB1B0AFFEF0097B72E /* TTSwipeViewController.m in Sources */,
+				A415F8D91B0818430097B72E /* TTMovieListDataController.m in Sources */,
+				A415F8E21B08336D0097B72E /* AppDelegate+TTNetworkHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A49829C11B07F211008F99B8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A49829C21B07F211008F99B8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A49829D01B07F211008F99B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A49829D11B07F211008F99B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A49829D31B07F211008F99B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TravelTunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A49829D41B07F211008F99B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TravelTunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A49829AA1B07F211008F99B8 /* Build configuration list for PBXProject "TravelTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49829D01B07F211008F99B8 /* Debug */,
+				A49829D11B07F211008F99B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A49829D21B07F211008F99B8 /* Build configuration list for PBXNativeTarget "MovieTinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49829D31B07F211008F99B8 /* Debug */,
+				A49829D41B07F211008F99B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A49829A71B07F211008F99B8 /* Project object */;
+}
